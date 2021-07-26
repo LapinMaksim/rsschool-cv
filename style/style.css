@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 160%;
+    font-family: "Open Sans", "Tahoma", sans-serif;
+    text-align: center;
+  }
+  
+  body:last-child {
+    margin-bottom: 40px;
+  }
+  
+  .content {
+    display: inline-block;
+    width: 80%;
+    max-width: 1024px;
+    padding-top: 40px;
+    text-align: left;
+  }
+  
+  h2,
+  h3 {
+    font-weight: bold;
+    color: #bfb363;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    margin: 0 0 20px 0;
+    font-size: 330%;
+    line-height: 110%;
+  }
+  
+  h2 {
+    margin-top: 60px;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  .secondary,
+  .secondary a,
+  .date {
+    color: #777777;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 24px;
+    list-style: none;
+  }
+  
+  header {
+    margin-bottom: 50px;
+  }
+  
+  header p,
+  header p a,
+  a {
+    color: black;
+  }
+  
+  @media (max-width: 1024px) {
+    header {
+      text-align: center;
+    }
+  }
+  
+  .photo,
+  .title {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .photo {
+    --photo-size: 150px;
+    width: var(--photo-size);
+    height: var(--photo-size);
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 585px) {
+    h1 {
+      font-size: 250%;
+      line-height: 100%;
+    }
+  
+    .photo {
+      width: calc(var(--photo-size) / 1.2);
+      height: calc(var(--photo-size) / 1.2);
+      margin-bottom: 18px;
+    }
+  }
+  
+  .contacts p {
+    margin: 0;
+    font-style: italic;
+    font-size: 80%;
+    line-height: 160%;
+    white-space: pre-wrap;
+  }
+  
+  .contacts a {
+    display: flex;
+    margin-left: 15px;
+  }
+  
+  ul.contacts {
+    white-space: normal;
+  }
+  
+  ul.contacts li.icons {
+    white-space: pre-wrap;
+  }
+  
+  .contacts img {
+    vertical-align: middle;
+    width: 24px;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icons a img {
+    margin-left: 10px;
+    width: 40px;
+  }
+  
+  .date {
+    display: block;
+    font-style: italic;
+    font-size: 70%;
+  }
+  
+  .main-education {
+    padding: 20px;
+    background-color: #f8f7f5;
+    color: black;
+  }
